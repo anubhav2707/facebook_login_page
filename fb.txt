@@ -1,0 +1,167 @@
+<html>
+<head>
+		<style type="text/css">
+		    #header{
+						width:100%;
+						height:90px;
+						top:0;
+						left:0;
+						position:absolute;
+						background:#3d5b99;
+				        color:white;
+					
+					}
+	        #fb-header-base{
+						width:100%;
+						height:90px;
+						position:absolute;
+						top:0;
+						left:0;
+						color:blue;
+						
+						z-index:7;
+						font-family:verdana;
+						-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+						
+						}
+						
+						
+			#form1{ 
+			       left:750px;
+					height:60px;
+					width:180px;
+					top:20px;
+					font-family:verdana;
+					font-size:12px;
+					position:absolute;
+			      }
+            
+			#form2{
+			        left:940px;
+					height:60px;
+					width:180px;
+					top:20px;
+		            font-family:verdana;
+					font-size:12px; 
+                    position:absolute;	
+                    					
+			      }
+		    #intro1{
+					left:190px;
+					top:130px;
+					font-family:verdana;
+					font-size:20px;
+			        height:75px;
+					width:550px;
+					color:blue;
+					position:absolute;
+					}
+					
+		
+			
+			#img2{
+					top:190px;
+					left:178px;
+					width:537px;
+					height:195px;
+					position:absolute;
+			    }
+		    #intro2{
+					left:750px;
+					top:110px;
+					font-family:verdana;
+					font-size:40px;
+					color:#000;
+					font-weight:bold;
+					height:75px;
+					width:500px;
+					position:absolute
+					}
+			#form3{
+						top:200px;
+						left:750px;
+						font-family:verdana;
+						font-size:20px;
+						color:#142170;
+						width:450px;
+						height:495px;
+						position:absolute;
+						
+				  }
+			#sex{
+					font-size:12px;
+					height:15px;
+					width:15px;
+				}
+			#agreement{font-family:verdana;
+						font-size:12px;
+						color:gray;
+						}
+			#submit_button{
+							left:1130px;
+							top:37px;
+							position:absolute;
+							cursor:pointer;
+							font-text:veranda;
+							background:#5b7bc0;
+							color:white;
+							height:22px;
+							width:50px;
+							}
+							
+							
+		   
+         </style>						
+		
+		
+</head>
+<body>
+         <div id="fb-header-base"> </div>
+         <div id="header"><h1> facebook</h1>
+		 
+		 <div id="form1">Email or phone<br>
+		 <input placeholder="name" type="text" /> <br>
+		 <input type="checkbox"/>keep me logged in 
+		 </div>
+		 
+		 <div id="form2">Password<br>
+		 <input placeholder="password" type="email" /><br>
+        Forgotten password		 
+		 </div>
+		
+			
+	   
+		<div id="intro2">Create an account</div>
+		 <div id="img2"><img src="fdgf.png"/></div>
+		 
+				<div id="intro1">Facebook helps you connect and share with the <br>
+			people in your life.</div>	
+			
+	    <div id="form3" >
+				<input placeholder="First Name" type="text"/>    
+                <input placeholder="Last Name" type="text" /> </br> <br>
+                <input placeholder="Mobile Number and email address" type="text"/>	</br> </br>
+                <input placeholder="New Password" type="text"/>  </br>
+				<h3> Birthday </h3>
+				<input type="date"  />  </br></br>
+				<input type="radio" id="sex"  value="male" name="name3" />Male
+			    <input type="radio" id="sex"  value="female" name="name3" />Female<br><br>
+				<p id="agreement">By clicking Create an account, you agree to our Terms and that 
+				you have read our Data Policy, including our Cookie Use.</p>
+				<input type="submit" class="button2" value="Sign Up" />
+				<br><hr>
+ 
+                   				
+        </div>	
+		
+		<div id="submit_button"> <input placeholder="Log In" type="submit" /> </div>
+			
+		
+		 
+		 
+		 
+		 
+		 
+		
+</body>		 
+</html>
